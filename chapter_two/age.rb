@@ -15,15 +15,3 @@ puts "In 30 years you will be: "
   puts age + 30
 puts "In 40 years you will be: "
   puts age + 40
-  
-  # Exercise 3: Add a section to name.rb that prints users name 10 times without writing the
-  # puts method 10 times. This is done by using the .times method on the integer 10. Then
-  # we pass it a block for the code to execute.
-  
-  puts "What's your name?"
-  name = gets.chomp
-  puts "Hello " + name
-
-  10.times do
-    puts name
-  end
