@@ -1,5 +1,5 @@
-# This error message is telling me that doesn't have the correct amount of arguments being
-# provided. It states we have provided 1 out of 2 arguments.
+# This error message is telling me that the method being called requires two 
+# arguments and we have only provided one.
 
 =begin
 ArgumentError: wrong number of arguments (1 for 2)
