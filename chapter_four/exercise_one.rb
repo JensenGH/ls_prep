@@ -1,4 +1,4 @@
-# Write if the expressions will return true or false. Then try in irb.
+# Write if the expressions will return true or false. Then try in irb. 
 
 (32 * 4) >= 129 # False. 128 is not >= 129.
 false != !true # False. Boolean false is equal to false. 

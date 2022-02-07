@@ -13,7 +13,7 @@ else
   puts "Did you?"
 end
 # Since both sides are equal to 3, the output will print the first branch of code.
-
+ 
 # Snippet 3
 y = 9
 x = 10
