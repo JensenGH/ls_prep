@@ -11,7 +11,7 @@ end
 Here, x prints out an error: undefined local variable x. This is because x was defined within 
 the block which creates an inner scope. Variables initalized within inner scope are not
 available in an outer scope. We are however able to output y.
-=end
+=end 
 
 y = 0
 3.times do

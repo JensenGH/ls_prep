@@ -10,7 +10,7 @@ puts "Great! Your full name is " + first_name + ' ' + last_name
 
 # 10.times do
 #  puts name
-# end
+# end 
 
   # Exercise 3: Add a section to name.rb that prints the user name 10 times without writing the
   # puts method 10 times. This is done by using the .times method on the integer 10. Then
