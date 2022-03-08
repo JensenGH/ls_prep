@@ -1,9 +1,8 @@
-# Program called multiply that will take two arguments and will display the return value of 
-# the two numbers. Since line 6 is the last line to get executed, the return value of 
-# multiplying these two numbers will also be the return value of the method.
+# Write a program that includes a method called multiply that takes two arguments and returns
+# the product of the two numbers.
 
 def multiply(num1, num2)
   num1 * num2
 end
 
-puts multiply(30, 7)
+p multiply(30, 7)

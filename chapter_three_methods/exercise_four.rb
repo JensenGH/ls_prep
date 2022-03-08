@@ -1,6 +1,7 @@
-# The code doesn't print anything to the screen since we have explicitly returned on line 7. 
-# This means that the code will exit the program afterwards and any lines of code after that
-# will not get executed.
+# What will the following code print to the screen?
+# Answer: This program will not output anything to the screen. Since we used an explicit return
+# in our method definition, Ruby will immediately exit from our method and any line after will
+# not be executed.
 
 def scream(words)
   words = words + "!!!!"

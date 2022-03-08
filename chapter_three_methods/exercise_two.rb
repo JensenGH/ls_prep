@@ -1,14 +1,17 @@
-# What do these expressions evalutate to?
+# What do the following expressions evaluate to?
 
-x = 2 # => 2, variable x was assigned to an integer 2, expression then has a return value of 2.
+x = 2 # => 2, Here we have variable assignment. Variable assignment will return the value of the
+# assigned variable, which in this case is 2. 
 
-puts x = 2 # => nil, output displays 2, but puts method always returns a value of nil. 
+puts x = 2 # => nil, the puts method will output the return value, but puts always returns nil
+# so it will output 2, but return nil.
 
-p name = "Joe" # => "Joe", p method outputs its arguement, then displays it.
+p name = "Joe" # => "Joe", p method will output it's argument and print it's arugment. Therefore,
+# "Joe" to be our returned value. 
 
-four = "four" # => "four", variable four assigned to string called "four". The expression
-# will then evaluate to the string called "four".
+four = "four" # => "four", We have variable assignment once again. Therefore the return value
+# will be the value of the assign variable which is "four".
 
-print something = "nothing" # nothing=> displays the output nothing with return value of nil.
-# Because the print method doesn't print out a new line like the puts method does, the 
-# output and return value are displayed on the same line.
+print something = "nothing" # nothing=> nil. The print method will output the return value of 
+# this assignment and then return nil. The print method doesn't append a new line onto it's output, 
+# therefore the output and return value are on the same line.
