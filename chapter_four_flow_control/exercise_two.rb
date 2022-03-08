@@ -1,7 +1,7 @@
-# Write a program that takes a string as an arguement, method should return a new
-# all caps version of the string only if it has more than 10 characters. 
+# Write a method that takes a string as an argument. The method should return a new, all-caps 
+# version of the string, only if the string is longer than 10 characters.
 
-def caps(string)
+def all_caps(string)
   if string.length > 10
     string.upcase
   else
@@ -9,5 +9,5 @@ def caps(string)
   end
 end
 
-puts caps("Jensen Taylor")
-puts caps("Bowie")
+puts all_caps("Jensen")
+puts all_caps("hello world")

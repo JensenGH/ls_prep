@@ -1,10 +1,12 @@
 # What will each block of code print to the screen? 
-# Snippet 1
-'4' == 4 ? puts("TRUE") : puts("FALSE")
-# Returns "FALSE". If expression to the left of the ? is false the code will run
-# whatever is to the right of the semicolon. Vice versa for true.
 
-# Snippet 2
+# Snippet 1: Ternary operator
+'4' == 4 ? puts("TRUE") : puts("FALSE")
+# Returns "FALSE". After writing our condition if it evaluates to true, what is to the right 
+# of the ? gets printed. If false, what's right of the : will get printed. The string "4" is
+# not equal to the integer 4.
+
+# Snippet 2: If statement
 x = 2
 
 if ((x * 3) / 2) == (4 + 4 - x - 3)
@@ -12,9 +14,11 @@ if ((x * 3) / 2) == (4 + 4 - x - 3)
 else
   puts "Did you?"
 end
-# Since both sides are equal to 3, the output will print the first branch of code.
+# Since the comparison we provided to the condition of our if statement evaluates to true, 
+# our first string "Did you get it right?" gets output to the screen. If false, our second
+# string "Did you?" would have been printed. 
  
-# Snippet 3
+# Snippet 3: If statement
 y = 9
 x = 10
 if (x + 1) <= (y)
@@ -26,5 +30,6 @@ elsif (y + 1) == x
 else
   puts "Alrighty!"
 end
-# Here the first condition is false so we move on to the next line.
-# Since 11 > 9 is true, we execute the next line of code.
+# Since our first expression doesn't evaluate to true, we move on to the next line of code.
+# In our first elsif statement 11 >= 9 is true, so the string "Alright now!" gets printed
+# to the screen and we exit our program. 

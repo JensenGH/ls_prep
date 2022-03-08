@@ -1,7 +1,8 @@
-# True or false? Then try in irb.
+# Write down whether the following expressions return true, false, or raise an error. Then type
+# the expressions into irb to see the results.
 
-(32 * 4) >= "129" # Error, can't compare integer to string.
-847 == '874' # False, must be same data type and the amounts are off. 
+(32 * 4) >= "129" # Error message, can't compare integer to string.
+847 == '874' # False. 
 
 # Here, we go character by character to provide us our return value.
 '847' < '846' # False. 
