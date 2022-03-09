@@ -1,15 +1,14 @@
-=begin
-Write a while loop that takes input from user, performs an action, and only stops
-when the user types "STOP". The loop will continue to run if the condition evaluates
-to true, so we provide a condition that allows the loop to stop. We use a variable
-x to reference our user input.
-=end
+# Write a while loop that takes input from the user, performs an action, and only stops when the
+# user types "STOP". Each loop can get info from the user. First we provide a conditon to our
+# while loop to determine when we want it to stop looping. If our condition evaluates as true the 
+# loop will continue. After we get user input, we ask again if we should continue. This is where
+# we reassign the variable x which then allows us to break out of our loop if we type "STOP".
 
-x = " " 
+x = " "
 
 while x != "STOP" do
-  puts "Hello, how are you?"
-  answer = gets.chomp
-  puts "Lets try this again"
+puts "Would you like me to keep going?"
+answer = gets.chomp
+  puts "Are you sure?"
   x = gets.chomp
 end
