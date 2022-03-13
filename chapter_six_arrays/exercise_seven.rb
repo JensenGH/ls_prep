@@ -1,8 +1,10 @@
 # Use the each_with_index method to iterate through an array of your creation that prints
-# each index and value of an array. This method will have the element and index passed to 
-# the block. We add 1 to our index so it numbers 1-5 since index starts at 0.
+# each index and value of an array. 
+# The each_with_index method gives us the ability to manipulate both the value and the index by
+# passing in two parameters to the block of code. The first is the value and the second is the
+# index. You can then use them in the block.
 
 my_hobbies = ["gaming", "gym", "hiking", "reading", "coding"]
-my_hobbies.each_with_index do |hobby, index| 
-puts "#{index + 1}. #{hobby}"
+my_hobbies.each_with_index do |val, idx|
+  puts "#{idx+1}. #{val}"
 end
