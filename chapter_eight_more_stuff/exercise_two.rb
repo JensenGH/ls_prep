@@ -1,6 +1,6 @@
 # What will the program print to the screen and what will it return?
-# Since we never active the block with the call method, nothing gets printed to the screen.
-# After running this program in irb the method returns a Proc object.
+# Since we never call the block inside of our method definition, the block of code never gets
+# executed. This returns a Proc object.
 
 def execute(&block)
   block

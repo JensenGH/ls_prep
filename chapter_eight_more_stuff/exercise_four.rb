@@ -1,5 +1,5 @@
-# Modify the code so the block runs properly. We add the call method to our program so that
-# our block gets executed.
+# Modify the code in exercise 2 to make the block execute properly.
+# We add the call method to our block inside of the method definition. 
 
 def execute(&block)
   block.call
