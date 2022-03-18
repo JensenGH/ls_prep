@@ -1,9 +1,8 @@
-# Can hash values be arrays? Can you have an array of hashes? Give examples. 
-# Answer: Yes we can.
-# Hash values as arrays
-hash_values_as_arrays = {names: ["Jensen", "Lucy", "Stephanie"]}
+# Can hash values be arrays? Can you have an array of hashes?
 
+hash = { name: ["Jensen", "Bob", "Joe"] } # Yes, hash values can be arrays. 
 
+array = [ {name: "Jensen"}, {age: 30} ] # Yes, an array of hashes.
 
-# Array of hashes
-array_of_hashes = [{name: "Jensen"}, {age: 30}, {hair: "Brown"}] 
+p hash
+p array

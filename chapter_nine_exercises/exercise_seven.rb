@@ -1,5 +1,5 @@
-=begin
-The major difference between an Array and a Hash is that an Array is a sequence of elements 
-accessed by it's index while a Hash has key-value pairs which each value is accessed by 
-their key.
-  =end
+# What's the major difference between an Array and a Hash?
+
+# The major difference between an Array and a Hash is that Arrays contain elements which can
+# be accessed by their index which starts at 0, while a Hash contains key-value pairs that
+# we can access by their key.

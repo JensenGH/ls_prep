@@ -1,5 +1,4 @@
-# Remove any duplicates without removing any one value.
+# Get rid of duplicates without specifically removing any one value.
 
-arr = [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 10]
-
-arr.uniq # Add a bang suffix to make this destructive.
+arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 3]
+arr.uniq # Add a bang suffix to make this destructive(Mutate caller)
